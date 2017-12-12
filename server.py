@@ -15,7 +15,7 @@ app = alexandra.Application()
 def server(device):
     global cast
     global device_name
-
+    print("Hello")
     print('>> trying to connect to {}'.format(device))
 
     device_name = device
